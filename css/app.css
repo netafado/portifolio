@@ -1,0 +1,131 @@
+html {
+  width: 100%; }
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  letter-spacing: 5px; }
+
+.header-site {
+  padding: 30px 50px 60px 50px;
+  width: auto;
+  height: auto; }
+
+.menu-nav {
+  display: flex;
+  flex-wrap: wrap; }
+
+.main-menu {
+  float: right;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer; }
+
+#nav img {
+  width: 120px; }
+
+.menu-icons {
+  display: flex;
+  flex-wrap: wrap; }
+  .menu-icons div {
+    align-self: center;
+    text-align: center;
+    margin-top: -100px; }
+
+.get-down {
+  position: absolute;
+  left: 47%;
+  bottom: 10px;
+  z-index: 1000;
+  font-size: 40px;
+  -webkit-animation-name: slide;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear; }
+
+#last-posts {
+  background-color: #ff0037; }
+  #last-posts div {
+    padding: 0; }
+  #last-posts h1 {
+    text-align: center;
+    padding: 20px; }
+
+.menuPopUp {
+  position: fixed;
+  background-color: #ff0037;
+  width: 100%;
+  height: 100%;
+  z-index: 99999999;
+  left: 0;
+  top: 0;
+  display: none;
+  -webkit-transition: 2s;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0; }
+  .menuPopUp ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0; }
+    .menuPopUp ul li {
+      font-size: 25px;
+      font-weight: 700;
+      list-style-type: none;
+      margin: auto; }
+      .menuPopUp ul li ul li {
+        font-size: 18px; }
+      .menuPopUp ul li ul li:last-child {
+        margin-bottom: 20px; }
+  .menuPopUp #close {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    padding: 0;
+    text-align: center;
+    border: 2px solid white;
+    cursor: pointer; }
+    .menuPopUp #close p {
+      margin: 0px;
+      margin-top: 5px;
+      margin-left: 4px; }
+
+.menu-suspenso {
+  border: 1px solid;
+  width: auto;
+  padding: 50px;
+  margin: auto; }
+
+/* ANIMATIONS */
+.toggleHide {
+  display: flex;
+  transition-duration: 2s; }
+
+.toggleObj {
+  opacity: 0.8;
+  transition-duration: 2s; }
+
+.show {
+  display: block;
+  transition-duration: 2s; }
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    bottom: 20px; }
+  50% {
+    opacity: 1;
+    bottom: 10px; }
+  100% {
+    opacity: 0;
+    bottom: 0px; } }
+
+/*# sourceMappingURL=app.css.map */

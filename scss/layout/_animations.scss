@@ -1,0 +1,19 @@
+/* ANIMATIONS */
+.toggleHide{
+	display: flex;
+	transition-duration: 2s;
+}
+
+.toggleObj{
+	opacity: 0.8;
+	transition-duration: 2s;
+}
+.show{
+	display:block;
+	transition-duration: 2s;
+}
+@-webkit-keyframes slide {
+	0% 	{opacity: 0; bottom: 20px;}
+	50%	{opacity: 1; bottom: 10px}
+	100%{opacity: 0; bottom: 0px}
+}

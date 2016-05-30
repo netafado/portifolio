@@ -1,0 +1,24 @@
+/////////////////////////////////////////////
+//                   Header                //
+//////////////////////////////////////////////
+.header-site{
+	padding: 30px 50px 60px 50px;
+	width: auto;
+	height: auto
+}
+.menu-nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+.main-menu{
+	float: right;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+#nav img{
+	width: 120px;
+}
+

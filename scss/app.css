@@ -1,0 +1,79 @@
+html{
+	width: 100%;
+}
+body{
+	background-color: black;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	letter-spacing: 5px
+}
+
+.header-site{
+	padding: 30px 50px 60px 50px;
+	width: auto;
+	height: auto
+}
+
+.menu-icons{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-icons div{
+	align-self:center;
+	text-align: center;
+	margin-top: -100px;
+	 
+}
+.
+.menu-nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+.get-down{
+	position: absolute;
+	left: 47%;
+	bottom: 10px;
+	z-index: 1000;
+	font-size: 40px;
+
+	-webkit-animation-name: slide;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function:linear;
+
+}
+
+#last-posts{
+	background-color: #ff0037;
+}
+#last-posts div{
+	padding: 0;
+}
+
+#last-posts h1{
+	text-align: center;
+	padding: 20px;
+}
+/* menu principal */
+.main-menu{
+	float: right;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+#nav img{
+	width: 120px;
+}
+
+/* ANIMATIONS */
+@-webkit-keyframes slide {
+	0% 	{opacity: 0; bottom: 20px;}
+	50%	{opacity: 1; bottom: 10px}
+	100%{opacity: 0; bottom: 0px}
+}
